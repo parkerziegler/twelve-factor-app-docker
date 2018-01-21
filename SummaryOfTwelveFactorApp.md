@@ -1,0 +1,2 @@
+## Summary and Concepts of the Twelve-Factor App
+The **twelve-factor app** is a framework for building modern, performant applications. Following it ensures future reliability and scalability when deploying the app to production. Check out [12factor.net](https://12factor.net/) for more details on each of the factors that goes into building a twelve-factor app. Each Markdown file in this repo pertains to one of the factors.
