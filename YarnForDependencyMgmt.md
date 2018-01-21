@@ -1,0 +1,4 @@
+## Pin Down `npm` Package Versions with `yarn.lock`
+`npm` is not 100% deterministic by default – running `npm install` on different computers may result in different versions of dependencies. `yarn` was built to be 100% deterministic and guarantee exact installations of dependencies. To add packages use `yarn add` or `yarn add package@version`.
+
+WHen packages are installed, `yarn` creates a `yarn.lock` file with exact information about the installed versions of different packages. Be sure that both `package.json` and `yarn.lock` get tracked in version control, as `yarn` will update the `yarn.lock` file as you update your own `package.json`. Also make sure to add `node_modules` to your `.gitignore` as these assets are compiled by `yarn` at build time or post-deploy.
